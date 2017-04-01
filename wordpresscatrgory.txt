@@ -1,0 +1,1 @@
+[product_category category="slug" per_page="12" columns="4" orderby="price" order="asc"]

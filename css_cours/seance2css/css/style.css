@@ -1,0 +1,48 @@
+h1, h2,h3{
+text-align: center;
+/* text-transform: uppercase;
+ */}
+/*  pseudo classe */
+h1:first-letter,h2:first-letter{
+text-transform: uppercase;
+color: red;
+font-size: 30px;
+text-decoration: underline;
+}
+p:first-line{
+
+	background: grey;
+}
+/* les pseudo elements
+ */
+ h1::before,h2::before{
+	/* content: '(*)'; */
+	content: '   ';
+	border-color: green;
+	border-width: 0 0 6px 10px;
+
+	border-style: solid;
+	padding: 5px;
+	margin: 5px;
+margin: 10px;
+padding: 10px;
+-moz-transform: rotate(45deg) scale(1, 1) skewX(0deg) skewY(0deg) translate(0px, 0px);/* FF3.5+ */
+-webkit-transform: rotate(45deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px);/*Saf3.1+, Chrome*/
+-o-transform: rotate(45deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px);/* Opera 10.5 */
+-ms-transform: rotate(45deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px);/* IE 9 */
+transform: rotate(45deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px);
+}
+/* -moz-transform: rotate('40deg');  */
+	/* border:solid 2px red;  */
+
+
+h1::after,h2::after{
+	content: '   ';
+	border-color: green;
+	border-width: 6px  10px 0 0;
+
+	border-style: solid;
+margin: 10px;
+padding: 10px;
+display: block;
+}
