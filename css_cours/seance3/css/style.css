@@ -1,0 +1,93 @@
+#entete{
+height: 40px;
+width: 100%;
+background: #FFAE36;
+
+}
+
+#header{
+height: 70px;
+width: 960px;
+background: black;	
+margin:0 auto;
+}
+#header #logo{
+width: 300px;
+float: left;
+background:orange ;
+height: 70px;
+}
+
+#header #slogan{
+width: 660px;
+height: 70px;
+float: right;
+background: blue;
+}
+
+#menu{
+height: 40px;
+width: 960px;
+background: #3872C7;
+margin:0 auto;
+}
+
+#slider{
+height: 500px;
+width: 960px;
+background: black;
+margin:0 auto;
+}
+.titre{
+	margin: 0 auto;
+	width: 960px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	background: #FFAE36;
+	color: white;
+-moz-border-radius: 5px;/*Firefox*/
+-webkit-border-radius: 5px;/*Safari, Chrome*/
+border-radius: 5px;
+}
+.produits{
+	width: 960px;
+	min-height: 200px;
+	border:1px solid black;
+	margin: 0 auto;
+}
+.p3{
+	width: 33.3333%;
+	min-height: 200px;
+	float: left;
+	background: red;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+
+.p2{
+	width: 50%;
+	min-height: 200px;
+	float: left;
+	background: red;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+.n{
+	clear: both;
+height:8px;
+}
+
+
+
+
+
+
+#footer{
+height: 100px;
+width: 100%;
+background: grey;	
+margin:0 auto;
+color: black;
+}

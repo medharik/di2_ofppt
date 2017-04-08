@@ -37,7 +37,7 @@ transform: rotate(45deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px);
 
 
 h1::after,h2::after{
-	content: '   ';
+	content: '<<';
 	border-color: green;
 	border-width: 6px  10px 0 0;
 
