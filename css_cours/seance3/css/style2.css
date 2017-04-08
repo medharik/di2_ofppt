@@ -1,0 +1,79 @@
+#container{
+background: url("arena.jpg") no-repeat center;
+background-size: cover;
+margin-top: 90px;
+}
+
+#container div{
+margin-top:0px; 
+}
+.largeur{
+	width: 960px;
+	margin: 0 auto;
+}
+.l100{
+	width: 100%;
+}
+
+.b{
+	border:1px solid black;
+	box-sizing: border-box;
+	background: black;
+	opacity: 0.4;
+}
+.margev{
+	height: 10px;
+}
+
+
+#entete{
+	height: 100px;
+	position: fixed;
+	top: 0;
+	background: red;
+}
+#header{
+	height: 100px;
+}
+
+#slider{
+	height: 500px;
+}
+#menu{
+	height: 40px;
+}
+.titre{
+	background: orange;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	clear: both;
+}
+
+.produits{
+	min-height: 200px;
+}
+.p2{
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+.p3{
+width: 33.3333%;
+	float: left;
+		height: 200px;
+}
+.p4{
+	width: 25%;
+	float: left;
+		height: 200px;
+}
+#footer{
+	height: 100px;
+clear: both;
+}
+
+.n{
+	clear: both;
+	height: 10px;
+}
