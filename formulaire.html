@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>les formulaires html + intro js</title>
+	<style type="text/css">
+		label{
+			cursor: pointer;
+		}
+		label::after{
+			content : "(*)";
+			color: red;
+		}
+		table{
+			background: black;
+			color: white;
+			padding: 10px;
+		}
+		input,textarea,select{
+			padding: 5px;
+			background: black;
+			color: white;
+			width: 90%;
+		}
+	input[type="submit"]{
+		background: red;
+		color: white;
+		border:white 1px solid;
+border:none;
+	}	
+
+	</style>
+</head>
+<body>
+<!-- form>table>tr*8>td*2 -->
+<form action="index3.html">
+	<table align="center">
+		<tr>
+			<td><label for="email">Email :</label></td>
+			<td><input type="text" name="email" id="email"></td>
+		</tr>
+		<tr>
+			<td>Mot de passe :</td>
+			<td><input type="password" name="passe" id="passe"></td>
+		</tr>
+		<tr>
+			<td><label for="homme">Homme :</label><input type="radio" name="hf" id="homme" value="Homme"></td>
+			<td>Femme : <input type="radio" name="hf" id="femme" value="femme"></td>
+		</tr>
+		<tr>
+			<td>Diplômé : <input type="checkbox" name="dip" id="dip" value="diplomé"></td>
+			<td>Chomeur :<input type="checkbox" name="chom" id="chom" value="chomeur"></td>
+		</tr>
+		<tr>
+			<td>Ville</td>
+			<td><select name="ville[]" id="ville" multiple="multiple" size="2">
+				<option value="Casablanca">Casa</option>
+				<option value="rabat">Rabat</option>
+				<option value="El jadida">El jadida</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Adresse :</td>
+			<td><textarea name="adresse" id="adresse"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>Cv :</td>
+			<td><input type="file" name="cv" id="cv"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="ok" id="ok" value="valider"></td>
+			<td><input type="reset" name="raz" id="raz" value="Annuler"></td>
+		</tr>
+
+	</table>
+</form>
+</body>
+</html>

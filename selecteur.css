@@ -1,0 +1,27 @@
+#container {
+	text-decoration: underline;
+}
+
+#container > ul{
+	border:1px solid black;
+}
+a{
+border:purple solid 2px;
+color: yellow;
+}
+a[href *="1"]{
+border:red solid 2px;
+color: green;
+}
+
+a[href ^="http://"]::after{
+content: '    lien externe';
+}
+
+ul ~ p{
+	font-size: 2em;
+	border:blue solid 10px;
+}
+a[href$="html"]{
+	border:80px;
+}
