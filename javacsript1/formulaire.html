@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js 1</title>
+	<script type="text/javascript" 
+	src="validation.js"></script>
+</head>
+<body>
+	
+	<div id="r" style="width: 500px;height: 50px;background: black;margin: auto;color: white;display: none;text-align: center"></div>
+
+	<form name="form1" id="form1">
+		<table align="center" width="400">
+			<tr>
+				<th>Nombre 1 : </th>
+				<td nowrap="nowrap"><input type="text" name="a" id="a"></td>
+			</tr>
+			<tr>
+				<th>Nombre 2 :</th>
+				<td><input type="text" name="b" id="b"></td>
+			</tr>
+			<tr>
+				<th>Opérations </th>
+				<td> 
++<input type="radio" value="+" name="op" >
+-<input type="radio" value="-" name="op">
+/<input type="radio" value="/" name="op">
+*<input type="radio" value="*" name="op" checked="checked">
+				</td>
+			</tr>
+
+<tr>
+	<td>Opérations</td>
+	<td><select name="operation" id="operation"  onchange="calculerCombo()">
+
+			<option selected="selected">Choisissez une opération</option>
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="/">/</option>
+			<option value="*">*</option>
+	
+		</select></td>
+</tr>
+
+			<tr>
+				<th></th>
+				<td><input type="button" id="ok" name="ok"  value="calculer"  onclick="calculer()"></td>
+			</tr>
+		</table>
+	</form>
+	
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
